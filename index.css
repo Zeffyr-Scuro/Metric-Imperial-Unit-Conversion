@@ -1,0 +1,71 @@
+*, *::after, *::before{
+    box-sizing: border-box
+}
+
+body {
+    margin: 30 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1F2937;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+#user-el{
+    background: #6943FF;
+    padding: 20px 0;
+    border-radius: 5px;  
+}
+
+#input-el{
+    width: 117px;
+    height: 83px;   
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px
+}
+
+#convert-btn{
+    display: block;
+    margin: 30px auto;
+    width: 117px;
+    height: 42px;   
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color: #3D3D3D;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.label{
+    width: 500px;
+    height: 108.57px;
+    background: #273549;
+    border-radius: 5px;
+}
+
+h2{
+    color: #CCC1FF;
+
+    line-height: 20px;
+
+    font-weight: 600;
+    padding-top: 20px
+    }
+
+p{
+    color: #FFFFFF;
+    font-weight: 400;
+}
